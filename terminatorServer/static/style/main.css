@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/**
+* Remove default margin.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+body {
+  font-family: Helvetica, Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  margin: 0 auto;
+  color: #333; }
+ul, li {
+  list-style: none; }
+a {
+  text-decoration: none !important; }
+img {
+  vertical-align: middle;
+  border: 0; }
+input {
+  border: none;
+  background: none;
+  outline: none;
+  margin: 0;
+  padding: 0; }
+input[type="botton"] {
+  -webkit-appearance: none; }
+input:focus::-webkit-input-placeholder {
+  color: transparent; }
+input[type="search"] {
+  -webkit-appearance: textfield; }
+input:-webkit-autofill {
+  -webkit-box-shadow: 000px 1000px whiteinset; }
+.nowrap {
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis; }
+.nowrap-hide {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  word-break:  break-all; }
+.nowra-clamp-one {
+  -webkit-line-clamp: 1; }
+button {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer; }
+.clearfloat:after {
+  display: block;
+  content: '';
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+.overflowhidden {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis; }
+.overflowhidden2 {
+  word-break: break-all;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  /** å¯¹è±¡ä½œä¸ºä¼¸ç¼©ç›’å­æ¨¡åž‹æ˜¾ç¤º **/
+  -webkit-box-orient: vertical;
+  /** è®¾ç½®æˆ–æ£€ç´¢ä¼¸ç¼©ç›’å¯¹è±¡çš„å­å…ƒç´ çš„æŽ’åˆ—æ–¹å¼ **/
+  -webkit-line-clamp: 3;
+  /** æ˜¾ç¤ºçš„è¡Œæ•° **/
+  overflow: hidden;
+  /** éšè—è¶…å‡ºçš„å†…å®¹ **/ }

@@ -1,0 +1,84 @@
+body{
+	background:#f1f1f1;
+}
+.login{
+	width:100%;
+}
+.logo{
+	height:46px;
+	margin-top:56px;
+    margin-left: 50px;
+    color:#ea6f5a;
+    font-size:50px;
+    line-height:50px;
+}
+.centercontent{
+    width: 400px;
+    margin: 60px auto 0;
+    padding: 50px 50px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.logintab{
+	text-align: center;
+	margin-bottom:50px;
+}
+.title{
+	width:56px;
+	padding: 10px;
+	font-size:24px;
+	font-weight: 700;
+    color: #ea6f5a;
+    border-bottom: 4px solid #ea6f5a;
+    cursor: pointer;
+}
+.formwrap{
+	width:300px;
+	margin:0 auto;
+}
+.inpwrap{
+	width:100%;
+	height:100px;
+	border:1px solid #c8c8c8;
+	background-color: hsla(0,0%,71%,.1);
+    vertical-align: middle;
+    border-radius:4px;
+}
+.inp1,.inp2{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    padding: 4px 12px 4px 35px;
+    border-bottom: 1px solid #c8c8c8;
+    background:url(../images/user.png) no-repeat 2px center;
+    background-size:33px;
+}
+.inp2{
+	border:none;
+	background:url(../images/password.png) no-repeat 2px center;
+	background-size:33px;
+}
+.inp1 input,.inp2 input{
+	width:100%;
+	height:100%;
+}
+.subbtn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background: #42c02e;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    clear: both;
+    transition: all 0.5s;
+}
+.subbtn:hover{
+	background:#3194d0;
+}
+
