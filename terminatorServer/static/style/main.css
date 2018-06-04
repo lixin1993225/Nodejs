@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /**
 * Remove default margin.
 */
@@ -103,3 +103,37 @@ button {
   /** æ˜¾ç¤ºçš„è¡Œæ•° **/
   overflow: hidden;
   /** éšè—è¶…å‡ºçš„å†…å®¹ **/ }
+.basiclogo{
+    width:100%;
+    height:58px;
+    background-color: #fff;
+    border-bottom:1px solid #f0f0f0;
+}
+.centerlogo{
+    width:1440px;
+    height:58px;
+    line-height:58px;
+    margin:0 auto;
+}
+.logoimg{
+    color:#ea6f5a;
+    font-size:44px;  
+}
+.writecon{
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: 8px 15px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: #ea6f5a;
+}
+
+
+
+
+
+

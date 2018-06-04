@@ -18,11 +18,9 @@ module.exports = function(){
 			if(err){
 				res.status(500).send(err).end()
 			}else{
-				console.log(data.length)
 				if(data.length == 0){
 					res.status(404).send('no data').end()
 				}else{
-					console.log(data[0].password==password)
 					if(data[0].password==password){
 						req.session['admin_id']=data[0].ID;
 						res.redirect('/admin/');

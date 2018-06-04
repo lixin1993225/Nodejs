@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人信息</title>
+	<link rel="stylesheet" href="/style/main.css">
+	<link rel="stylesheet" href="/style/userinfo.css">
+</head>
+<body>
+	<% include header.ejs%>
+	<section id="userinfo" class="basics clearfloat">
+		<div class="leftaside">
+			<ul class="clearfloat">
+				<li class='active'>个人资料</li>
+				<li>敬请期待</li>
+			</ul>
+		</div>
+		<div class="rightaside">
+			<form action="/admin/userinfo" method="post" enctype="multipart/form-data">
+				<div class="inptype1">
+					<label for="imgid">
+						<span class="imginp0" style="background:url(<%= '/upload/'+userInfo.headerimg%>)no-repeat center;background-size: cover"></span>
+						<input type="file" name="fileimg" class="imginp">
+					</label>				
+				</div>
+				<div class="inptype2">
+					<label for="">
+						<span class="nameinp0">昵称</span>
+						<input type="text" name="username" class="nameinp" value="<%= userInfo.nickname%>">
+					</label>
+				</div>
+				<div class="inptype3">
+					<label for="">
+						<input type="submit" value="保存" class="submit">
+					</label>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+</html>
